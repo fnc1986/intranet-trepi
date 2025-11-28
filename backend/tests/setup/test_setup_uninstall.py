@@ -17,3 +17,7 @@ class TestSetupUninstall:
         from trepi.intranet.interfaces import IBrowserLayer
 
         assert IBrowserLayer not in browser_layers
+
+    def test_latest_version(self, profile_last_version):
+        """Test latest version of default profile."""
+        assert profile_last_version(f"{PACKAGE_NAME}:default") == "20251128001"
