@@ -15,7 +15,7 @@ GREEN=`tput setaf 2`
 RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
-IMAGE_NAME_PREFIX=ghcr.io/fnc1986intranet-trepi
+IMAGE_NAME_PREFIX=ghcr.io/fnc1986/intranet-trepi
 IMAGE_TAG=latest
 
 # Python checks

@@ -68,7 +68,7 @@ services:
       - nw-internal
 
   frontend:
-    image: ghcr.io/fnc1986intranet-trepi-frontend:${STACK_PARAM:-latest}
+    image: ghcr.io/fnc1986/intranet-trepi-frontend:${STACK_PARAM:-latest}
     environment:
       RAZZLE_INTERNAL_API_PATH: http://backend:8080/Plone
       RAZZLE_API_PATH: https://intranet.tre-pi.jus.br
@@ -98,7 +98,7 @@ services:
         - traefik.http.routers.rt-frontend.middlewares=gzip
 
   backend:
-    image: ghcr.io/fnc1986intranet-trepi-backend:${STACK_PARAM:-latest}
+    image: ghcr.io/fnc1986/intranet-trepi-backend:${STACK_PARAM:-latest}
     environment:
       RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_USER:-plone}' host='${DB_HOST:-db}' password='${DB_PASSWORD:-NnTDYGdUGkRB}' port='${DB_PORT:-5432}'"
     depends_on:
