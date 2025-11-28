@@ -22,8 +22,8 @@ make create-site
 
 ## Contribute
 
-- [Issue tracker](https://github.com/fnc1986@gmail.com/intranet-trepi/issues)
-- [Source code](https://github.com/fnc1986@gmail.com/intranet-trepi/)
+- [Issue tracker](https://github.com/fnc1986/intranet-trepi/issues)
+- [Source code](https://github.com/fnc1986/intranet-trepi/)
 
 ### Prerequisites ✅
 

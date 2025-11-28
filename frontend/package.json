@@ -3,7 +3,7 @@
   "version": "1.0.0-alpha.0",
   "description": "Intranet utilizando o Plone 6",
   "author": "Flavio Cruz",
-  "homepage": "https://github.com/fnc1986@gmail.com/intranet-trepi",
+  "homepage": "https://github.com/fnc1986/intranet-trepi",
   "license": "MIT",
   "keywords": [
     "volto-addon",

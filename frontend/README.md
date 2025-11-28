@@ -4,7 +4,7 @@ Intranet utilizando o Plone 6
 
 [![npm](https://img.shields.io/npm/v/volto-trepi-intranet)](https://www.npmjs.com/package/volto-trepi-intranet)
 [![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://fnc1986@gmail.com.github.io/volto-trepi-intranet/)
-[![CI](https://github.com/fnc1986@gmail.com/intranet-trepi/actions/workflows/main.yml/badge.svg)](https://github.com/fnc1986@gmail.com/intranet-trepi/actions/workflows/main.yml)
+[![CI](https://github.com/fnc1986/intranet-trepi/actions/workflows/main.yml/badge.svg)](https://github.com/fnc1986/intranet-trepi/actions/workflows/main.yml)
 
 
 ## Features

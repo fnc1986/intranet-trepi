@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_NAME_PREFIX: ghcr.io/fnc1986@gmail.com/intranet-trepi
+  IMAGE_NAME_PREFIX: ghcr.io/fnc1986intranet-trepi
   NODE_VERSION: "24.x"
   PYTHON_VERSION: "3.12"
 

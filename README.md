@@ -2,8 +2,8 @@
 
 [![Built with Cookieplone](https://img.shields.io/badge/built%20with-Cookieplone-0083be.svg?logo=cookiecutter)](https://github.com/plone/cookieplone-templates/)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Backend Tests](https://github.com/fnc1986@gmail.com/intranet-trepi/actions/workflows/backend.yml/badge.svg)](https://github.com/fnc1986@gmail.com/intranet-trepi/actions/workflows/backend.yml)
-[![Frontend Tests](https://github.com/fnc1986@gmail.com/intranet-trepi/actions/workflows/frontend.yml/badge.svg)](https://github.com/fnc1986@gmail.com/intranet-trepi/actions/workflows/frontend.yml)
+[![Backend Tests](https://github.com/fnc1986/intranet-trepi/actions/workflows/backend.yml/badge.svg)](https://github.com/fnc1986/intranet-trepi/actions/workflows/backend.yml)
+[![Frontend Tests](https://github.com/fnc1986/intranet-trepi/actions/workflows/frontend.yml/badge.svg)](https://github.com/fnc1986/intranet-trepi/actions/workflows/frontend.yml)
 
 Intranet utilizando o Plone 6
 

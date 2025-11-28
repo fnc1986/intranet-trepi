@@ -40,10 +40,10 @@ test = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/fnc1986@gmail.com/intranet-trepi"
+Homepage = "https://github.com/fnc1986/intranet-trepi"
 PyPI = "https://pypi.org/project/trepi.intranet"
-Source = "https://github.com/fnc1986@gmail.com/intranet-trepi"
-Tracker = "https://github.com/fnc1986@gmail.com/intranet-trepi/issues"
+Source = "https://github.com/fnc1986/intranet-trepi"
+Tracker = "https://github.com/fnc1986/intranet-trepi/issues"
 
 
 [project.entry-points."plone.autoinclude.plugin"]
@@ -76,7 +76,7 @@ filename = "CHANGELOG.md"
 start_string = "<!-- towncrier release notes start -->\n"
 title_format = "## {version} ({project_date})"
 template = "news/.changelog_template.jinja"
-issue_format = "[#{issue}](https://github.com/fnc1986@gmail.com/intranet-trepi/issues/{issue})"
+issue_format = "[#{issue}](https://github.com/fnc1986/intranet-trepi/issues/{issue})"
 underlines = ["", "", ""]
 
 [[tool.towncrier.type]]
