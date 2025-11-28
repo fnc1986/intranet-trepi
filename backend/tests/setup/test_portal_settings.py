@@ -15,7 +15,7 @@ class TestPortalSettings:
             ["plone.email_from_name", "Intranet TRE-PI"],
             ["plone.smtp_host", "localhost"],
             ["plone.smtp_port", 25],
-            ["plone.sitemap_depth", 3]
+            ["plone.sitemap_depth", 3],
         ],
     )
     def test_setting(self, portal, key: str, expected: str | int):
