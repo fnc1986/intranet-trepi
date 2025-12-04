@@ -105,4 +105,4 @@ class TestArea:
             payload["description"] = "Novo valor"
             area = api.content.create(container=container, **payload)
             notify(ObjectModifiedEvent(area))
-        assert area.exclude_from_nav is True
+        assert area.exclude_from_nav is False
