@@ -1,6 +1,7 @@
 from trepi.intranet import logger
 from trepi.intranet.content.area import Area
 from zope.lifecycleevent import ObjectAddedEvent
+from zope.lifecycleevent import ObjectModifiedEvent
 
 
 def _update_excluded_from_nav(obj: Area):
@@ -9,7 +10,11 @@ def _update_excluded_from_nav(obj: Area):
     obj.exclude_from_nav = not bool(description)
     logger.info(f"Atualizado o campo excluded_from_nav para {obj.title}")
 
-
 def added(obj: Area, event: ObjectAddedEvent):
     """Post creation handler for Area."""
     _update_excluded_from_nav(obj)
+
+def modified(obj: Area, event: ObjectModifiedEvent):
+    """Post modification handler for Area."""
+    _update_excluded_from_nav(obj)
+    #logger.info(f"Campo modificado o campo {obj.title}")
