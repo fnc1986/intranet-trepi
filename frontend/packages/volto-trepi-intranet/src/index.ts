@@ -1,12 +1,14 @@
 import type { ConfigType } from '@plone/registry';
+import installBlocks from './config/blocks';
+import installReducers from 'volto-trepi-intranet/config/reducers';
 import installSettings from './config/settings';
 import installViews from './config/views';
-import installBlocks from './config/blocks';
 
 function applyConfig(config: ConfigType) {
   installSettings(config);
-  installViews(config);
   installBlocks(config);
+  installViews(config);
+  installReducers(config);
 
   return config;
 }
