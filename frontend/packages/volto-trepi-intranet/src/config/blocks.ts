@@ -14,3 +14,10 @@ function installLocalBlocks(config: ConfigType) {
   config.blocks.blocksConfig.climaBlock = ClimaBlockInfo;
   return config;
 }
+
+export default function install(config: ConfigType) {
+  // Registra todos os blocos criados nesse pacote
+  installLocalBlocks(config);
+
+  return config;
+}
